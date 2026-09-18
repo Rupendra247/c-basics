@@ -13,6 +13,8 @@ int main(void)
         if (numbers[i] == n)
         {
             printf("found\n");
+            printf("enter number is %d\n", n);
+            printf("number found in %d index \n", i);
             return 0;
         }
     }
